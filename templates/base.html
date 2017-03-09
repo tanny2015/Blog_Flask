@@ -2,11 +2,11 @@
 
 {% block title %}Flasky{% endblock %}
 
-{#这个head是网页标签上边的那个icon图标啊！#}
+{# 这个head是网页标签上边的那个icon图标啊！#}
 {% block head %}
  {{ super() }}
-{# 可能是因为之前已经有其他的基类模板head已经存在了，这边就是继承了它#}
-{# url_for()这个函数可以使用程序URL映射中保存的信息生成URL。就是本地文件路径作为url啦。这边是设置图片icon的地址#}
+{# 可能是因为之前已经有其他的基类模板head已经存在了，这边就是继承了它 #}
+{# url_for()这个函数可以使用程序URL映射中保存的信息生成URL。就是本地文件路径作为url啦。这边是设置图片icon的地址 #}
  <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
  <link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
 
@@ -32,7 +32,6 @@
             </ul>
         </div>
     </div>
-
 </div>
 {% endblock %}
 
@@ -45,9 +44,11 @@
 {% endblock %}
 
 
-
-
-
+{# 增加时间显示方面的脚本 引入moment.js库#}
+{% block scripts %}
+{{ super() }}
+{{ moment.include_moment() }}
+{% endblock %}
 
 
 
