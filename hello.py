@@ -1,4 +1,5 @@
-#coding=utf-8
+ #coding=utf-8
+import os
 from flask import Flask, render_template, session,  redirect, url_for, flash
 from flask_script import Manager
 # (注意：注释和#之间 是要有一个空格的！)
@@ -9,15 +10,40 @@ from flask_moment import Moment
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
+from flask_sqlalchemy import SQLAlchemy
 
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir,'data.sqlite')
+app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 
 manager = Manager(app)
 bootstrap = Bootstrap(app)
 # 之前写成moment = Moment() 导致一直出错，说是moment未定义！真是浪费了不少时间啊！
 moment = Moment(app)
+db = SQLAlchemy(app)
+
+
+class Role(db.Model):
+     __tablename__ = 'roles'
+     id = db.Column(db.Integer,primary_key=True)
+     name = db.Column(db.String(64),unique=True)
+     users = db.relationship('User',backref='role', lazy='dynamic')
+
+     def __repr__(self):
+         return '<Role %r>'  % self.name
+
+class User(db.Model):
+    __tablename__ = 'users'
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(64),unique=True,index=True)
+    role_id = db.Column(db.Integer, db.ForeignKey('roles.id'))
+
+    def __repr__(self):
+        return '<User %>' % self.name
+
 
 class NameForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
@@ -27,7 +53,6 @@ class NameForm(FlaskForm):
 @app.errorhandler(404)
 def page_not_found(e):
     return render_template('404.html'),404
-
 
 @app.errorhandler(500)
 def internal_server_error(e):
@@ -47,10 +72,11 @@ def index():
     return render_template('index.html', form=form, name=session.get('name'))
 
 if __name__ == '__main__':
+    db.create_all()
     manager.run()
 
 
-# 实例4-6 Flash消息 [4c]
+# 实例5-3 用Flask-SQLAlchemy构造数据库模型--目前还看不到数据库中的效果，尚未插入数据 [5a]
 # 测试URL1 404  http://127.0.0.1:5000
 
 
