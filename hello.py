@@ -11,6 +11,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired
 from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate, MigrateCommand
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -24,7 +25,7 @@ bootstrap = Bootstrap(app)
 # 之前写成moment = Moment() 导致一直出错，说是moment未定义！真是浪费了不少时间啊！
 moment = Moment(app)
 db = SQLAlchemy(app)
-
+migrate = Migrate(app,db)
 
 class Role(db.Model):
      __tablename__ = 'roles'
@@ -52,6 +53,7 @@ class NameForm(FlaskForm):
 def make_shell_context():
     return dict(app=app,db=db,User=User, Role=Role)
 manager.add_command("shell",Shell(make_context=make_shell_context))
+manager.add_command('db',MigrateCommand)
 
 
 @app.errorhandler(404)
@@ -88,7 +90,7 @@ if __name__ == '__main__':
 
 
 
-# 实例5-10 集成Python shell [5c]
+# 5.11.2 创建迁移脚本 数据库文件多出来一个version相关的表 [5d]
 # 测试URL1 404  http://127.0.0.1:5000
 
 
