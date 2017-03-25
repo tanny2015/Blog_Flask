@@ -1,7 +1,7 @@
  #coding=utf-8
 import os
 from flask import Flask, render_template, session,  redirect, url_for
-from flask_script import Manager
+from flask_script import Manager,Shell
 # (注意：注释和#之间 是要有一个空格的！)
 
 from flask_bootstrap import Bootstrap
@@ -49,6 +49,10 @@ class NameForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
+def make_shell_context():
+    return dict(app=app,db=db,User=User, Role=Role)
+manager.add_command("shell",Shell(make_context=make_shell_context))
+
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -82,14 +86,9 @@ if __name__ == '__main__':
     manager.run()
 
 
-# 这个是User数据库的数据，此时已经有数据了。submit一次就提交一次，不会重复提交
-# 1	tanny
-# 2	不跟你说
 
-# 旧名称  --  Happy to see you again!
-# 新名称  --  Pleased to meet you!
 
-# 实例5-6 app中使用数据库 -- 数据库已插入数值 [5b]
+# 实例5-10 集成Python shell [5c]
 # 测试URL1 404  http://127.0.0.1:5000
 
 
