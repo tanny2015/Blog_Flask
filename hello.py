@@ -1,6 +1,6 @@
  #coding=utf-8
 import os
-from flask import Flask, render_template, session,  redirect, url_for, flash
+from flask import Flask, render_template, session,  redirect, url_for
 from flask_script import Manager
 # (注意：注释和#之间 是要有一个空格的！)
 
@@ -64,19 +64,32 @@ def index():
     # 这个是先新建一个输入表格，这个是自定义实现。具体实现在上边
     form = NameForm()
     if form.validate_on_submit():
-        old_name = session.get('name')
-        if old_name is not None and old_name != form.name.data:
-            flash('Looks like you have changed your name!')
+        user = User.query.filter_by(username=form.name.data).first()
+        # 如果这个名字之前没有收录，就把他添加到数据库
+        if user is None:
+            user = User(username=form.name.data)
+            db.session.add(user)
+            session['known'] = False
+        # 这个名字已经收录过，就不用再次收录
+        else:
+            session['known'] = True
         session['name'] = form.name.data
         return redirect(url_for('index'))
-    return render_template('index.html', form=form, name=session.get('name'))
+    return render_template('index.html',form=form,name=session.get('name'),
+                           known=session.get('known',False))
 
 if __name__ == '__main__':
-    db.create_all()
     manager.run()
 
 
-# 实例5-3 用Flask-SQLAlchemy构造数据库模型--目前还看不到数据库中的效果，尚未插入数据 [5a]
+# 这个是User数据库的数据，此时已经有数据了。submit一次就提交一次，不会重复提交
+# 1	tanny
+# 2	不跟你说
+
+# 旧名称  --  Happy to see you again!
+# 新名称  --  Pleased to meet you!
+
+# 实例5-6 app中使用数据库 -- 数据库已插入数值 [5b]
 # 测试URL1 404  http://127.0.0.1:5000
 
 
