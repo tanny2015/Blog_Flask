@@ -1,5 +1,6 @@
  #coding=utf-8
 import os
+from threading import Thread
 from flask import Flask, render_template, session,  redirect, url_for
 from flask_script import Manager,Server,Shell
 # (注意：注释和#之间 是要有一个空格的！)
@@ -56,6 +57,10 @@ class User(db.Model):
     def __repr__(self):
         return '<User %>' % self.name
 
+def send_asyn_email(app, msg):
+    with app.app_context():
+        mail.send(msg)
+
 
 def send_mail(to, subject, template, **kwargs):
     msg = Message(app.config['FLASKY_MAIL_SUBJECT_PREFIX'] + ' ' + subject,
@@ -63,7 +68,9 @@ def send_mail(to, subject, template, **kwargs):
                   recipients=[to])
     msg.body = render_template(template + '.txt',**kwargs)
     msg.html = render_template(template + '.html', **kwargs)
-    mail.send(msg)
+    thr = Thread(target=send_asyn_email, args=[app, msg])
+    thr.start()
+    return thr
 
 
 class NameForm(FlaskForm):
@@ -72,7 +79,7 @@ class NameForm(FlaskForm):
 
 def make_shell_context():
     return dict(app=app,db=db,User=User, Role=Role)
-manager.add_command("runserver", Server(use_debugger=True)) #方便debug
+manager.add_command("runserver", Server(use_debugger=False)) #方便debug
 manager.add_command("shell",Shell(make_context=make_shell_context))
 manager.add_command('db',MigrateCommand)
 
@@ -114,7 +121,7 @@ if __name__ == '__main__':
 
 
 
-# 6-4  1.使用FLASK-Email 发送邮件  2.集成了pycharm的debug功能 [6a]
+# 6-5  开异步线程发送电子邮件  [6b]
 # 测试URL1 404  http://127.0.0.1:5000
 
 

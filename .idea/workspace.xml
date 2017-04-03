@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d43b857e-0fee-4292-ae48-3aa4761663fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/2a0fcd263437_.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mail/new_user.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mail/new_user.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_Mail-0.9.1.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker-1.4.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker/_saferef.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker/_utilities.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/blinker/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_mail.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.sqlite" afterPath="$PROJECT_DIR$/data.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Flask_Python.iml" afterPath="$PROJECT_DIR$/.idea/Flask_Python.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hello.py" afterPath="$PROJECT_DIR$/hello.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/hello.py" afterPath="$PROJECT_DIR$/../flasky/hello.py" />
@@ -54,8 +31,8 @@
       <file leaf-file-name="hello.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="54" />
+            <state relative-caret-position="450">
+              <caret line="123" column="24" lean-forward="true" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
               <folding>
                 <element signature="e#15#24#0" expanded="true" />
               </folding>
@@ -133,8 +110,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="29" />
+    <option name="x" value="296" />
+    <option name="y" value="23" />
     <option name="width" value="1276" />
     <option name="height" value="919" />
   </component>
@@ -555,7 +532,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="29" width="1276" height="919" extended-state="0" />
+    <frame x="296" y="23" width="1276" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20988655" sideWeight="0.48347107" order="0" side_tool="false" content_ui="combo" />
@@ -616,13 +593,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/500.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -941,16 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="116" column="54" lean-forward="false" selection-start-line="116" selection-start-column="2" selection-end-line="116" selection-end-column="54" />
-          <folding>
-            <element signature="e#15#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mail/new_user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -964,6 +924,24 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="123" column="24" lean-forward="true" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+          <folding>
+            <element signature="e#15#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
