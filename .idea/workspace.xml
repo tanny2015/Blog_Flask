@@ -5,14 +5,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43b857e-0fee-4292-ae48-3aa4761663fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/_macros.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/bin/markdown_py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/Markdown-2.6.8.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach-2.0.0.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/callbacks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/encoding.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/linkifier.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/sanitizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/bleach/version.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/widgets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib-0.999999999.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_ihatexml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_inputstream.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_tokenizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_trie/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_trie/_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_trie/datrie.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_trie/py.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/constants.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/alphabeticalattributes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/inject_meta_charset.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/lint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/optionaltags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/sanitizer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/filters/whitespace.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/html5parser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/serializer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treeadapters/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treeadapters/genshi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treeadapters/sax.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treebuilders/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treebuilders/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treebuilders/dom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treebuilders/etree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treebuilders/etree_lxml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/dom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/etree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/etree_lxml.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/html5lib/treewalkers/genshi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/__main__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/__version__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/blockparser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/blockprocessors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/abbr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/admonition.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/attr_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/codehilite.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/def_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/extra.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/fenced_code.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/footnotes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/headerid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/meta.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/nl2br.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/sane_lists.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/smart_strong.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/smarty.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/toc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/extensions/wikilinks.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/inlinepatterns.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/odict.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/postprocessors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/preprocessors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/serializers.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/treeprocessors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/markdown/util.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings-0.5.1.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings/labels.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings/mklabels.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/venv/lib/python2.7/site-packages/webencodings/x_user_defined.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data.sqlite" afterPath="$PROJECT_DIR$/data.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/views.py" afterPath="$PROJECT_DIR$/app/main/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/forms.py" afterPath="$PROJECT_DIR$/app/main/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/static/styles.css" afterPath="$PROJECT_DIR$/app/static/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/user.html" afterPath="$PROJECT_DIR$/app/templates/user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements/common.txt" afterPath="$PROJECT_DIR$/requirements/common.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/app/templates/base.html" afterPath="$PROJECT_DIR$/../flasky/app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/requirements/common.txt" afterPath="$PROJECT_DIR$/../flasky/requirements/common.txt" />
     </list>
@@ -30,7 +144,7 @@
     <SUITE FILE_PATH="coverage/Flask_Python$Unittest_UserModelTestCase_test_duplicate_email_change_token.coverage" NAME="Unittest UserModelTestCase.test_duplicate_email_change_token Coverage Results" MODIFIED="1493454833606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python__1_.coverage" NAME="Unittests in Flask_Python (1) Coverage Results" MODIFIED="1492647443279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_user_model.coverage" NAME="Unittests in test_user_model Coverage Results" MODIFIED="1493529728592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/Flask_Python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1493571442040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask_Python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1493573199177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python__2_.coverage" NAME="Unittests in Flask_Python (2) Coverage Results" MODIFIED="1492783391075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_basics.coverage" NAME="Unittests in test_basics Coverage Results" MODIFIED="1492784756279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python.coverage" NAME="Unittests in Flask_Python Coverage Results" MODIFIED="1493528144347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -52,13 +166,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/views.py">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="236">
+              <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
               <folding>
-                <element signature="e#0#87#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,18 +181,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_macros.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/_macros.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="392">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -87,29 +191,85 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/user.html">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="6" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="465">
+              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <folding>
+                <element signature="e#1#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RECORD" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/RECORD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+      <file leaf-file-name="top_level.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/top_level.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="28" lean-forward="false" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WHEEL" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/WHEEL">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widgets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/widgets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fields.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/fields.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -179,7 +339,6 @@
         <option value="$PROJECT_DIR$/app/email.py" />
         <option value="$PROJECT_DIR$/app/templates/auth/login.py" />
         <option value="$PROJECT_DIR$/app/auth/__init__.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/templates/auth/register.py" />
         <option value="$PROJECT_DIR$/app/templates/auth/register.html" />
@@ -192,18 +351,19 @@
         <option value="$PROJECT_DIR$/app/auth/views.py" />
         <option value="$PROJECT_DIR$/tests/test_user_model.py" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
-        <option value="$PROJECT_DIR$/app/main/forms.py" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/app/templates/_posts.html" />
         <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/requirements/common.txt" />
         <option value="$PROJECT_DIR$/requirements/dev.txt" />
-        <option value="$PROJECT_DIR$/app/static/styles.css" />
-        <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/templates/user.html" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/app/main/views.py" />
         <option value="$PROJECT_DIR$/app/templates/_macros.html" />
+        <option value="$PROJECT_DIR$/requirements/common.txt" />
+        <option value="$PROJECT_DIR$/app/main/forms.py" />
+        <option value="$PROJECT_DIR$/app/static/styles.css" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
       </list>
     </option>
   </component>
@@ -214,10 +374,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1330" />
-    <option name="y" value="683" />
+    <option name="x" value="-415" />
+    <option name="y" value="39" />
     <option name="width" value="1437" />
-    <option name="height" value="984" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -298,6 +458,148 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="venv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="venv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python2.7">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="venv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python2.7">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site-packages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="venv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python2.7">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site-packages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_PageDown-0.2.2.dist-info">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="venv">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="python2.7">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="site-packages">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="flask_pagedown">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Flask_Python">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="requirements">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -317,72 +619,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="templates">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="static">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Flask_Python">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -840,18 +1076,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1330" y="683" width="1437" height="984" extended-state="0" />
+    <frame x="-415" y="39" width="1437" height="1028" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21290323" sideWeight="0.4764595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28817204" sideWeight="0.4764595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31432974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5067568" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52446485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0751073" sideWeight="0.49495876" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17307693" sideWeight="0.49495876" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19414485" sideWeight="0.4940476" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5044843" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24900794" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50427353" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24874552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33898306" sideWeight="0.49679193" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16645078" sideWeight="0.5235405" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47457626" sideWeight="0.4969697" order="3" side_tool="false" content_ui="tabs" />
@@ -927,76 +1163,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="158" column="27" lean-forward="true" selection-start-line="158" selection-start-column="27" selection-end-line="158" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/auth/change_email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../flasky/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask/blueprints.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="337" column="8" lean-forward="false" selection-start-line="337" selection-start-column="8" selection-end-line="337" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/wtforms/validators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="61" column="34" lean-forward="true" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/sqlalchemy/orm/attributes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="230" column="0" lean-forward="false" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/sqlalchemy/ext/declarative/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="649" column="0" lean-forward="false" selection-start-line="649" selection-start-column="0" selection-end-line="649" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1069,16 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/errors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1086,14 +1242,6 @@
           <folding>
             <element signature="e#0#33#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1267,14 +1415,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements/common.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements/dev.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1315,18 +1455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/_macros.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="144">
+          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1334,18 +1466,130 @@
     <entry file="file://$PROJECT_DIR$/app/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="57" column="42" lean-forward="true" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <caret line="57" column="42" lean-forward="false" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
           <folding>
-            <element signature="e#0#87#0" expanded="true" />
+            <element signature="e#0#87#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/_macros.html">
+    <entry file="file://$PROJECT_DIR$/requirements/common.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/INSTALLER">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/METADATA">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/RECORD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/WHEEL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_pagedown/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#1#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

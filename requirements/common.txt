@@ -3,6 +3,7 @@ Flask-Bootstrap
 Flask-Login
 Flask-Mail
 Flask-Migrate
+Flask-PageDown
 Flask-Moment
 Flask-SQLAlchemy
 Flask-Script
