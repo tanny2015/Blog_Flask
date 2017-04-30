@@ -163,6 +163,7 @@ class AnonymousUser(AnonymousUserMixin):
 
     def is_administrator(self):
         return False
+
 login_manager.anonymous_user = AnonymousUser
 
 
@@ -178,6 +179,4 @@ class Post(db.Model):
     body = db.Column(db.Text)
     timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
     author_id = db.Column(db.Integer, db.ForeignKey('users.id'))
-
-
 
