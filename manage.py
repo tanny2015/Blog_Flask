@@ -24,3 +24,5 @@ def test():
 
 if __name__ == '__main__':
     manager.run()
+
+# This Commit Need:  run in terminal: 1.python manage.py shell  2.User.add_self_follows()
