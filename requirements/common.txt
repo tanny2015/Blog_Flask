@@ -19,4 +19,7 @@ blinker
 click
 itsdangerous
 python-editor
-
+Markdown
+bleach
+html5lib
+six
