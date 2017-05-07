@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d43b857e-0fee-4292-ae48-3aa4761663fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_client.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_api.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_client.py" afterPath="$PROJECT_DIR$/tests/test_client.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/app/api_1_0/decorators.py" afterPath="$PROJECT_DIR$/../flasky/app/api_1_0/decorators.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/app/templates/base.html" afterPath="$PROJECT_DIR$/../flasky/app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../flasky/app/templates/user.html" afterPath="$PROJECT_DIR$/../flasky/app/templates/user.html" />
@@ -24,11 +24,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python__3_.coverage" NAME="Unittests in Flask_Python (3) Coverage Results" MODIFIED="1492792015412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$hello.coverage" NAME="hello Coverage Results" MODIFIED="1492643181662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_api.coverage" NAME="Unittests in test_api Coverage Results" MODIFIED="1494145840839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittest_UserModelTestCase_test_duplicate_email_change_token.coverage" NAME="Unittest UserModelTestCase.test_duplicate_email_change_token Coverage Results" MODIFIED="1493454833606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python__1_.coverage" NAME="Unittests in Flask_Python (1) Coverage Results" MODIFIED="1492647443279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_user_model.coverage" NAME="Unittests in test_user_model Coverage Results" MODIFIED="1493637243656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$manage.coverage" NAME="manage Coverage Results" MODIFIED="1493990816139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_client.coverage" NAME="Unittests in test_client Coverage Results" MODIFIED="1494144628082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_client.coverage" NAME="Unittests in test_client Coverage Results" MODIFIED="1494145815167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python__2_.coverage" NAME="Unittests in Flask_Python (2) Coverage Results" MODIFIED="1492783391075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_test_basics.coverage" NAME="Unittests in test_basics Coverage Results" MODIFIED="1494140798855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/Flask_Python$Unittests_in_Flask_Python.coverage" NAME="Unittests in Flask_Python Coverage Results" MODIFIED="1493528144347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -80,13 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_client.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_client.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="57" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_api.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_api.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1890">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,16 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/flask_script/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5940">
-              <caret line="411" column="0" lean-forward="false" selection-start-line="411" selection-start-column="0" selection-end-line="411" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -201,7 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/errors.py" />
         <option value="$PROJECT_DIR$/app/manage.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/../flasky/app/__init__.py" />
@@ -250,8 +252,9 @@
         <option value="$PROJECT_DIR$/app/api_1_0/users.py" />
         <option value="$PROJECT_DIR$/requirements/dev.txt" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/tests/test_client.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/tests/test_client.py" />
+        <option value="$PROJECT_DIR$/tests/test_api.py" />
       </list>
     </option>
   </component>
@@ -262,10 +265,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="622" />
-    <option name="y" value="23" />
-    <option name="width" value="1298" />
-    <option name="height" value="1008" />
+    <option name="x" value="1193" />
+    <option name="y" value="607" />
+    <option name="width" value="1410" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -484,7 +487,7 @@
       <recent name="$PROJECT_DIR$/app/templates/auth" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_client">
+  <component name="RunManager" selected="Python tests.Unittests in test_api">
     <configuration default="false" name="Unittests in test_user_model" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -566,6 +569,29 @@
       <module name="Flask_Python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_basics.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_api" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Flask_Python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_api.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -835,7 +861,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="Python.manage" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in Flask_Python" />
@@ -843,13 +869,15 @@
       <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest UserModelTestCase.test_duplicate_email_change_token" />
       <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_client" />
       <item index="6" class="java.lang.String" itemvalue="Python tests.Unittests in test_basics" />
+      <item index="7" class="java.lang.String" itemvalue="Python tests.Unittests in test_api" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_client" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_basics" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_user_model" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest UserModelTestCase.test_duplicate_email_change_token" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_api" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_client" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_basics" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_user_model" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest UserModelTestCase.test_duplicate_email_change_token" />
       </list>
     </recent_temporary>
   </component>
@@ -871,6 +899,12 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_in_test_api - 2017.05.07 at 16h 17m 14s.xml">
+      <configuration name="Unittests in test_api" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_api - 2017.05.07 at 16h 30m 43s.xml">
+      <configuration name="Unittests in test_api" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_basics - 2017.05.07 at 15h 06m 39s.xml">
       <configuration name="Unittests in test_basics" configurationId="tests" />
     </history-entry>
@@ -892,14 +926,8 @@
     <history-entry file="Unittests_in_test_client - 2017.05.07 at 16h 10m 28s.xml">
       <configuration name="Unittests in test_client" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_user_model - 2017.04.30 at 13h 22m 14s.xml">
-      <configuration name="Unittests in test_user_model" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_user_model - 2017.05.01 at 14h 49m 22s.xml">
-      <configuration name="Unittests in test_user_model" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_user_model - 2017.05.01 at 19h 14m 12s.xml">
-      <configuration name="Unittests in test_user_model" configurationId="tests" />
+    <history-entry file="Unittests_in_test_client - 2017.05.07 at 16h 30m 16s.xml">
+      <configuration name="Unittests in test_client" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="3">
@@ -914,16 +942,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="622" y="23" width="1298" height="1008" extended-state="0" />
-    <editor active="false" />
+    <frame x="1193" y="607" width="1410" height="1028" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23487261" sideWeight="0.4764595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21564327" sideWeight="0.4764595" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3133188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5067568" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3242358" sideWeight="0.49495876" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19323143" sideWeight="0.4940476" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30131003" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2948718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24874552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33842796" sideWeight="0.49679193" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16645078" sideWeight="0.5235405" order="2" side_tool="true" content_ui="tabs" />
@@ -1016,13 +1044,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/top_level.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/lib/python2.7/site-packages/Flask_PageDown-0.2.2.dist-info/WHEEL">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1383,10 +1404,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1890">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
