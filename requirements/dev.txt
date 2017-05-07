@@ -5,3 +5,4 @@ colorama
 httpie
 requests
 coverage
+selenium
