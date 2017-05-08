@@ -17,7 +17,7 @@ def get_comments():
     if pagination.has_next:
         next = url_for('api.get_comments', page=page+1, _external=True)
     return jsonify({
-        'comments': [comments.to_json() for comment in comments],
+        'comments': [comment.to_json() for comment in comments],
         'pre': prev,
         'next': next,
         'count': pagination.total
